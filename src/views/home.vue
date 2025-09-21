@@ -19,6 +19,14 @@
         status="new"
       />
       <FeatureCard
+        path="/marquee"
+        icon="🐎"
+        icon-bg="bg-yellow-200 text-yellow-600"
+        title="跑马灯"
+        desc="将输入内容进行全屏滚动展示"
+        status="new"
+      />
+      <FeatureCard
         path="/sys/user"
         icon="🙎"
         icon-bg="bg-blue-100 text-blue-600"
