@@ -1,5 +1,5 @@
 <template>
-  <footer class="mb-3">
+  <header class="mb-3">
     <tiny-card auto-width title="日期计算器">
       <p>
         欢迎使用「日期计算器」，现在是北京时间
@@ -7,7 +7,7 @@
         >，祝您生活愉快！
       </p>
     </tiny-card>
-  </footer>
+  </header>
   <main class="mb-3 flex flex-wrap justify-center gap-3">
     <tiny-card title="计算日期差值" custom-class="md:flex-1">
       <div class="mb-2">

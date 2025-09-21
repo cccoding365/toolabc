@@ -11,9 +11,17 @@
         status="new"
       />
       <FeatureCard
+        path="/browser-info"
+        icon="🖥️"
+        icon-bg="bg-green-100 text-green-600"
+        title="浏览器检测"
+        desc="获取当前浏览器各项参数信息"
+        status="new"
+      />
+      <FeatureCard
         path="/sys/user"
         icon="🙎"
-        icon-bg="bg-green-100 text-green-600"
+        icon-bg="bg-blue-100 text-blue-600"
         title="用户管理"
         desc="系统核心账户模块"
         status="old"
