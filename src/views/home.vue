@@ -3,6 +3,14 @@
     <h2 class="text-xl font-semibold mb-6 text-slate-700">功能大厅</h2>
     <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
       <FeatureCard
+        path="/color-extractor"
+        icon="🌇"
+        icon-bg="bg-red-200 text-red-600"
+        title="颜色提取器"
+        desc="获取图片中的主要颜色"
+        status="new"
+      />
+      <FeatureCard
         path="/date-calculator"
         icon="📅"
         icon-bg="bg-purple-100 text-purple-600"
