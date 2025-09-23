@@ -1,7 +1,15 @@
 <template>
   <main>
     <h2 class="text-xl font-semibold mb-6 text-slate-700">功能大厅</h2>
-    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3 ">
+      <FeatureCard
+        path="/image-filter"
+        icon="🎨"
+        icon-bg="bg-purple-200 text-purple-600"
+        title="图片CSS滤镜"
+        desc="使用CSS样式给图片加滤镜"
+        status="new"
+      />
       <FeatureCard
         path="/color-extractor"
         icon="🌇"
