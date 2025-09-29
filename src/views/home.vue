@@ -3,6 +3,14 @@
     <h2 class="text-xl font-semibold mb-6 text-slate-700">功能大厅</h2>
     <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3 ">
       <FeatureCard
+        path="/timeline"
+        icon="📅"
+        icon-bg="bg-blue-200 text-blue-600"
+        title="时间轴"
+        desc="历史事件纪念日&未来事件倒数日"
+        status="new"
+      />
+      <FeatureCard
         path="/image-filter"
         icon="🎨"
         icon-bg="bg-purple-200 text-purple-600"
